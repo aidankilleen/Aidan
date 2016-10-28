@@ -8,6 +8,7 @@
 </head>
 <body>
 <H1>Annette's Test</H1>
+<img src="static/images/sweetbucket.jpeg" alt="This is a sweet bucket" title="This is a title">
 
 </body>
 </html>
