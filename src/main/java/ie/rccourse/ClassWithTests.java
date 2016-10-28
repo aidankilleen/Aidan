@@ -16,6 +16,7 @@ public class ClassWithTests {
 	}
 
 	public ClassWithTests() {
+		months = new ArrayList<String>();
 		months.add("January");
 		months.add("February");
 		months.add("March");
