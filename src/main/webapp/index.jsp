@@ -2,6 +2,10 @@
 <body>
 <h2>Aidans Webapp</h2>
 
+<a href="Grainne.jsp">Grainne</a><br>
+<a href="otherPage.jsp">Other Page</a><br>
+<a href="waterPistol.jsp">Water Pistol</a><br>
+<a href="Annette.jsp">Annette</a><br>
 
 <a href="www.revenue.ie">Visit the Revenue Commissioners</a>
 
