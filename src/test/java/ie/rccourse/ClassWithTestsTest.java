@@ -27,6 +27,14 @@ public class ClassWithTestsTest {
 		
 				
 	}
-	
-	
+	@Test
+	public void checkSundayIsFirst() {
+
+		ClassWithTests cwt = new ClassWithTests();
+		
+		ArrayList<String>days = cwt.getDays();
+		
+		assertTrue(days.get(0).equals("Sunday"));
+
+	}
 }
