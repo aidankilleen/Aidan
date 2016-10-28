@@ -16,4 +16,15 @@ public class ClassWithTestsTest {
 		
 		assertTrue(months.size() == 12);
 	}
+	
+	@Test
+	public void countDays() {
+		ClassWithTests cwt = new ClassWithTests();
+		
+		ArrayList<String>days = cwt.getDays();
+		
+		assertTrue(days.size() == 7);
+		
+				
+	}
 }

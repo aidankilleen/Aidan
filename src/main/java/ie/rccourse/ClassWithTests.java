@@ -5,8 +5,17 @@ import java.util.ArrayList;
 public class ClassWithTests {
 	
 	ArrayList<String> months;
+	ArrayList<String> days;
 	
 	
+	public ArrayList<String> getDays() {
+		return days;
+	}
+
+	public void setDays(ArrayList<String> days) {
+		this.days = days;
+	}
+
 	public ArrayList<String> getMonths() {
 		return months;
 	}
@@ -29,6 +38,13 @@ public class ClassWithTests {
 		months.add("October");
 		months.add("November");
 		months.add("December");
+		
+		days = new ArrayList<String>();
+		days.add("Monday");
+		days.add("Tuesday");
+		//TBD ...
+		
+		
 		
 	}
 
